@@ -1,0 +1,474 @@
+@media (max-width: 1200px) {
+    .teachers {
+        margin-bottom: -22px;
+    }
+
+    .teachers__item {
+        margin-bottom: 22px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    /* Header */
+    .header {
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+
+    .header__content {
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+    }
+
+    /* Hero */
+    .hero__container {
+        padding-top: 101px;
+        padding-bottom: 124px;
+    }
+
+    .hero__content {
+        padding-top: 14px;
+        padding-bottom: 0;
+    }
+
+    .hero__title {
+        font-size: 50px;
+        margin-bottom: 16px;
+    }
+
+    .hero__descr {
+        margin-bottom: 62px;
+    }
+
+    .hero__bg {
+        background-image: url('../img/hero-bg-md.png');
+        background-position: top;
+        background-size: auto;
+    }
+
+    /* About */
+    .about {
+        padding-top: 71px;
+        padding-bottom: 58px;
+    }
+
+    .about__content {
+        margin-bottom: 23px;
+    }
+
+    .about__bg {
+        background-image: url('../img/about-bg-md.png');
+        background-size: 211px 187px;
+    }
+
+    .about__wrapper {
+        max-width: 100%;
+        padding-top: 9px;
+    }
+
+    .about__item {
+        max-width: calc(100% / 3);
+        padding: 76px 27px 0 0;
+        background-position: top left;
+    }
+
+    .about__item:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    /* Teachers */
+    .teachers {
+        padding-bottom: 27px;
+    }
+
+    .teachers-item__pic {
+        margin-bottom: 26px;
+    }
+
+    /* Courses */
+    .courses {
+        padding-top: 96px;
+    }
+
+    .courses__item {
+        max-width: calc((100% - 29px) / 2);
+        margin-bottom: 31px;
+    }
+
+    .courses-item__wrapper {
+        margin-bottom: 28px;
+    }
+
+    .courses-item__link {
+        padding: 20px 56px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Header */
+    .header {
+        padding-bottom: 29px;
+    }
+
+    .header__content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .header__logo {
+        margin-right: 0;
+        margin-bottom: 28px;
+    }
+
+    /* Hero */
+    .hero {
+        padding-top: 63px;
+        padding-bottom: 135px;
+    }
+
+    .hero__container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .hero__descr {
+        max-width: 86%;
+    }
+
+    .hero__bg {
+        display: none;
+    }
+
+    /* About */
+    .about {
+        padding-top: 80px;
+        padding-bottom: 39px;
+    }
+
+    .about__bg {
+        background-image: url('../img/about-bg-sm.png');
+        background-position: top;
+        background-size: 150px 134px;
+    }
+
+    .about__content {
+        margin-bottom: 24px;
+    }
+
+    .about__wrapper {
+        padding-top: 0;
+    }
+
+    .about_title {
+        margin-bottom: 18px;
+    }
+
+    .about__item {
+        padding: 74px 23px 0 0;
+    }
+
+    /* Teachers */
+    .teachers {
+        padding-bottom: 51px;
+    }
+
+    .teachers-item__pic {
+        margin-bottom: 26px;
+    }
+
+    /* Courses */
+    .courses {
+        padding-bottom: 80px;
+        margin-bottom: -31px;
+    }
+
+    .courses-item__duration {
+        right: 10px;
+    }
+
+    .courses__item {
+        padding-top: 208px;
+        padding-right: 21px;
+        padding-bottom: 29px;
+        margin-bottom: 31px;
+    }
+
+    .courses-item__wrapper {
+        margin-bottom: 31px;
+    }
+
+    .courses-item__title {
+        margin-bottom: 8px;
+        line-height: 139%;
+    }
+
+    .courses-item__descr {
+        line-height: 151%;
+    }
+
+    .courses-item__link {
+        padding: 21px 48.5px;
+    }
+}
+
+@media (max-width: 577px) {
+    .about {
+        margin-bottom: -4px;
+    }
+
+    .about__list {
+        /* flex-wrap: wrap; */
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .about__item {
+        max-width: 100%;
+        min-height: 82px;
+        padding: 0 0 0 110px;
+        background-position: left center;
+    }
+
+    .about__item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 4px;
+    }
+
+    .about__caption {
+        font-size: 16px;
+        line-height: 120%;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Header */
+
+    .header {
+        padding-top: 27px;
+        padding-bottom: 23px;
+    }
+
+    .header__content {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .header__logo {
+        width: 71px;
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+
+    .header__nav {
+        position: fixed;
+        top: -27px;
+        right: 0;
+        height: 100vh;
+        padding: 56px 15px 20px 20px;
+        background-color: #fff;
+        -webkit-box-shadow: 0 -3px 40px var(--main);
+                box-shadow: 0 -3px 40px var(--main);
+        border-bottom-left-radius: 20px;
+        z-index: 10;
+        overflow-y: auto;
+        -webkit-transform: translateX(120%);
+            -ms-transform: translateX(120%);
+                transform: translateX(120%);
+        visibility: hidden;
+        -webkit-transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        -o-transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    }
+
+    .header__nav--active {
+        -webkit-transform: none;
+            -ms-transform: none;
+                transform: none;
+        visibility: visible;
+    }
+
+    .stop-scroll {
+        overflow: hidden;
+    }
+
+    .nav__list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding-top: 23px;
+        padding-right: 40px;
+    }
+
+    .nav__item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .nav__link {
+        color: var(--main);
+    }
+
+    .close {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        margin-left: auto;
+    }
+
+    .close__line {
+        position: absolute;
+        top: 39%;
+        left: 15%;
+        width: 20.63px;
+        height: 2px;
+        background-color: var(--main);
+        border-radius: 100px;
+    }
+
+    .close__line:first-child {
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+    }
+
+    .close__line:last-child {
+        -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+    }
+
+    .burger {
+        display: block;
+    }
+
+    /* Hero */
+    .hero {
+        padding-top: 37px;
+        padding-bottom: 50px;
+    }
+
+    .hero__title {
+        font-size: 30px;
+        line-height: 100%;
+        margin-bottom: 5px;
+    }
+
+    .hero__descr {
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 130%;
+        margin-bottom: 43px;
+    }
+
+    .hero__btn {
+        font-size: 16px;
+        line-height: 19px;
+        padding: 21px 55px;
+    }
+
+    /* About */
+    .about {
+        padding-top: 49px;
+        padding-bottom: 36px;
+        margin-bottom: -2px;
+    }
+
+    .about__bg {
+        display: none;
+    }
+
+    .about__content {
+        margin-bottom: 7px;
+    }
+
+    .about__title {
+        font-size: 20px;
+        line-height: 130%;
+        margin-bottom: 3px;
+    }
+
+    .about__descr {
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    .about__item:not(:last-child) {
+        margin-bottom: 2px;
+    }
+
+    /* Teachers */
+    .teachers {
+        padding-top: 47px;
+        padding-bottom: 26px;
+        margin-bottom: -23px;
+    }
+
+    .teachers__title {
+        font-size: 20px;
+        line-height: 100%;
+        margin-bottom: 27px;
+    }
+
+    .teachers__item {
+        margin-bottom: 23px;
+    }
+
+    .teachers-item__pic {
+        margin-bottom: 25px;
+    }
+
+    /* Courses */
+    .courses {
+        padding-top: 68px;
+        margin-bottom: -30px;
+        padding-bottom: 50px;
+    }
+
+    .courses__title {
+        font-size: 20px;
+        line-height: 100%;
+        margin-bottom: 28px;
+    }
+
+    .courses__list {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .courses__item {
+        max-width: 100%;
+        height: 653px;
+        margin-bottom: 30px;
+        padding-right: 28px;
+    }
+
+    .courses-item__wrapper {
+        margin-bottom: 80px;
+    }
+
+    .courses-item__link {
+        padding: 21px 56px;
+    }
+}
